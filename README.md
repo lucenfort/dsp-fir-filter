@@ -2,7 +2,7 @@
 
 Este projeto implementa um filtro FIR básico em Python para processamento digital de sinais (DSP). O filtro FIR é desenvolvido utilizando boas práticas de programação e inclui a plotagem de um gráfico comparativo entre o sinal de entrada e o sinal filtrado usando o Matplotlib.
 
-## Teoria: Filtros FIR: Fundamentos e Aplicações
+## Teoria: Filtros FIR - Fundamentos e Aplicações
 
 Um filtro FIR (Finite Impulse Response), é um tipo de filtro digital que utiliza uma soma ponderada de um número finito de amostras passadas da entrada para calcular a saída. Em outras palavras, a saída do filtro em um instante de tempo depende apenas das amostras de entrada anteriores, e não de futuras.
 
