@@ -6,6 +6,19 @@ Este projeto implementa um filtro FIR básico em Python para processamento digit
 
 Um filtro FIR (Finite Impulse Response), é um tipo de filtro digital que utiliza uma soma ponderada de um número finito de amostras passadas da entrada para calcular a saída. Em outras palavras, a saída do filtro em um instante de tempo depende apenas das amostras de entrada anteriores, e não de futuras.
 
+### Vantagens dos Filtros FIR
+
+- **Estabilidade:** Sempre estáveis, confiáveis ​​e robustos.
+- **Eficiência:** Implementação eficiente, adequados para aplicações em tempo real.
+- **Linearidade:** Facilita análise e projeto de sistemas de processamento de sinal.
+- **Flexibilidade:** Versatilidade para diversas aplicações.
+
+### Desvantagens dos Filtros FIR
+
+- **Resposta em frequência não ideal:** Podem apresentar ondulações na resposta em frequência, indesejáveis em algumas aplicações.
+- **Maior ordem para transições mais nítidas:** Geralmente exigem uma ordem mais alta para obter transições mais nítidas na frequência de corte, aumentando a complexidade do filtro.
+
+
 ### Características dos Filtros FIR
 
 #### Estabilidade
@@ -28,18 +41,6 @@ Podem ser projetados para atender a uma variedade de requisitos de frequência e
 - Equalização: Ajusta a resposta em frequência de um sinal para compensar distorções ou melhorar a qualidade do som.
 - Realce de bordas: Detecta bordas em imagens.
 - Interpolação e decimação: Altera a taxa de amostragem de um sinal.
-
-### Vantagens dos Filtros FIR
-
-- **Estabilidade:** Sempre estáveis, confiáveis ​​e robustos.
-- **Eficiência:** Implementação eficiente, adequados para aplicações em tempo real.
-- **Linearidade:** Facilita análise e projeto de sistemas de processamento de sinal.
-- **Flexibilidade:** Versatilidade para diversas aplicações.
-
-### Desvantagens dos Filtros FIR
-
-- **Resposta em frequência não ideal:** Podem apresentar ondulações na resposta em frequência, indesejáveis em algumas aplicações.
-- **Maior ordem para transições mais nítidas:** Geralmente exigem uma ordem mais alta para obter transições mais nítidas na frequência de corte, aumentando a complexidade do filtro.
 
 ### Tipos de Filtros FIR
 
